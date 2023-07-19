@@ -1,0 +1,281 @@
+:root {
+    --white: #ffffff;
+    --blue: #130e27;
+    --red: #c62314;
+    --gray: #efefef;
+    --brown: #161616;
+    --black: #000000;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1010px;
+    margin: 0 auto;
+}
+
+.automotive__header {
+    background-image: url(/img/Layer13.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 690px;
+}
+
+.menu {
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 80px;
+    font-family: "QuiteChocolatey";
+    color: var(--white);   
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+.nav_btn {
+    font-size: 18px;
+    font-family: "MontserratRegular";
+    color: var(--white);    
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+}
+
+.nav_btn:hover {
+    background-color: var(--blue);
+}
+
+.description {
+    padding-top: 100px;
+    width: 50%;
+}
+
+.description__blue {
+    font-size: 80px;
+    font-family: "MontserratBold";
+    color: var(--blue);
+    text-transform: uppercase;
+    line-height: 75px;
+}
+
+.description__white {
+    color: var(--white);
+}
+.description__text {
+    color: var(--white);
+    font-size: 20px;
+    font-family: "PTSerifRegular";
+    padding-top: 35px;
+}
+
+/* header END */
+
+.automotive__services {
+    height: 480px;
+}
+
+.services__title {
+    font-size: 50px;
+    font-family: "CoutureBold";
+    color: var(--red);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: normal;   
+}
+
+.title__blue {
+    color: var(--blue);
+}
+
+.services__blocks {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0 15px 0;
+}
+
+.block {
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.fa {
+    font-size: 175px;
+    color: var(--blue);
+}
+
+.block_text {
+    font-size: 20px;
+    font-family: "PTSerifRegular";
+    color: var(--brown);
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* services END */
+
+.automotive__story {
+    color: var(--white);
+    background-color: var(--blue);
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.story__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.story {
+    width: 630px;
+    font-size: 20px;
+    font-family: "PTSerifRegular";
+}
+
+.story_button {
+    width: 270px;
+    height: 70px;
+    background-color: var(--red);
+    color: var(--white);
+    border-radius: 5px;
+    border: 1px var(--red) solid;
+    font-size: 22px;
+    font-family: "MontserratRegular";
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: transform 0.1s ease-out;
+}
+
+.story_button:hover {
+    transform: scale(1.1);
+}
+
+/* story END */
+
+.automotive__pricing {
+    height: 615px;
+    background-color: var(--gray);
+    text-align: center;
+}
+
+.pricing__title {
+    font-size: 50px;
+    font-family: "MontserratBold";
+    color: var(--blue);
+    text-transform: uppercase;  
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: normal;   
+}
+
+.pricing__cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 320px;
+    height: 390px;
+    background-color: var(--white);
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card_title {
+    font-size: 22px;
+    font-family: "PTSerifRegular";
+    color: var(--brown);
+    font-weight: normal;
+    padding-top: 20px;     
+}
+
+.price {
+    font-size: 60px;
+    font-family: "MontserratBold";
+    color: var(--red); 
+    text-transform: uppercase;     
+}
+
+.options_list {
+    list-style: none;
+    font-size: 20px;
+    font-family: "PTSerifRegular";
+    color: var(--brown);
+}
+
+.card_button {
+    width: 200px;
+    height: 50px;
+    background-color: var(--blue);
+    border: 1px var(--blue) solid;
+    border-radius: 5px;
+    font-size: 22px;
+    font-family: "MontserratRegular";
+    color: var(--white);
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.1s ease;
+}
+
+.card_button:hover {
+    background-color: var(--red);
+    border: 1px var(--red) solid;
+}
+
+/* pricing END */
+
+.automotive__footer {
+    height: 190px;
+    background-color: var(--blue);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+}
+
+.rights {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    font-size: 20px;
+    font-family: "PTSerifRegular";
+    color: var(--white);
+}
+
+.designer {
+    color: var(--red);
+    text-decoration: none;
+}
+
+.footer__logo {
+    font-size: 60px;
+    font-family: "QuiteChocolatey";
+    color: var(--red);     
+}
+
+/* footer END */
