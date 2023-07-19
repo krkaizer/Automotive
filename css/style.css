@@ -19,7 +19,7 @@
 }
 
 .automotive__header {
-    background-image: url(/img/Layer13.png);
+    background-image: url(../img/Layer13.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 690px;
